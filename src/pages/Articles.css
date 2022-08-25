@@ -13,6 +13,7 @@ ul {
   border: 1px black solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.555);
 }
 
 .tousArticles{

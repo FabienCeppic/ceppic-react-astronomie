@@ -1,11 +1,24 @@
 nav {
   display: flex;
   justify-content: center;
-
+  background-color: black;
 }
 
 .barre {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  font-size: large;
+  font-weight: 800;
+}
+
+.barreLien {
+  color: white;
+  text-decoration: none;
+}
+
+.contenu {
+  background-image: url("./orion.webp");
+  width: 100%;
+  height: 100%;
 }

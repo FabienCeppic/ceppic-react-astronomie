@@ -7,17 +7,23 @@ export default function Nav() {
       <nav>
         <ul className="barre">
           <li>
-            <Link to="/articles">Articles</Link>
+            <Link to="/articles" className="barreLien">
+              Articles
+            </Link>
           </li>
           <li>
-            <Link to="/ajouterArticle">Ajouter un article</Link>
+            <Link to="/ajouterArticle" className="barreLien">
+              Ajouter un article
+            </Link>
           </li>
           <li>
-            <Link to="/apropos">A propos</Link>
+            <Link to="/apropos" className="barreLien">
+              A propos
+            </Link>
           </li>
         </ul>
       </nav>
-      <main>
+      <main className="contenu">
         <Outlet />
       </main>
     </>
