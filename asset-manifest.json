@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.01ee8d5c.css",
-    "main.js": "/static/js/main.161c9481.js",
-    "static/media/orion.webp": "/static/media/orion.92f142136b81cc578fb4.webp",
-    "index.html": "/index.html",
-    "main.01ee8d5c.css.map": "/static/css/main.01ee8d5c.css.map",
-    "main.161c9481.js.map": "/static/js/main.161c9481.js.map"
+    "main.css": "//fabienceppic.github.io/ceppic-react-astronomie/static/css/main.ffe4a42b.css",
+    "main.js": "//fabienceppic.github.io/ceppic-react-astronomie/static/js/main.161c9481.js",
+    "static/media/orion.webp": "//fabienceppic.github.io/ceppic-react-astronomie/static/media/orion.92f142136b81cc578fb4.webp",
+    "index.html": "//fabienceppic.github.io/ceppic-react-astronomie/index.html",
+    "main.ffe4a42b.css.map": "//fabienceppic.github.io/ceppic-react-astronomie/static/css/main.ffe4a42b.css.map",
+    "main.161c9481.js.map": "//fabienceppic.github.io/ceppic-react-astronomie/static/js/main.161c9481.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ee8d5c.css",
+    "static/css/main.ffe4a42b.css",
     "static/js/main.161c9481.js"
   ]
 }
