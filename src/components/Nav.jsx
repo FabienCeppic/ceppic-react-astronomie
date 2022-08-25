@@ -1,10 +1,11 @@
 import { Link, Outlet } from "react-router-dom";
+import "./Nav.css";
 
 export default function Nav() {
   return (
     <>
       <nav>
-        <ul>
+        <ul className="barre">
           <li>
             <Link to="/articles">Articles</Link>
           </li>

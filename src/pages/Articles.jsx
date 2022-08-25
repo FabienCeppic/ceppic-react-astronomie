@@ -1,6 +1,7 @@
 import { db } from "../firebase";
 import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 import { useEffect, useState } from "react";
+import "./Articles.css";
 
 export default function Articles() {
   const [articles, setArticles] = useState([]);
@@ -21,15 +22,13 @@ export default function Articles() {
   }, []);
 
   return (
-    <>
-      <ul>
-        {articles.map((article) => (
-          <li key={article.id}>
-            <h2>{article.data.titre}</h2>
-            <p>{article.data.articleContenu}</p>
-          </li>
-        ))}
-      </ul>
-    </>
+    <div className="tousArticles">
+      {articles.map((article) => (
+        <div className="container" key={article.id}>
+          <h2>{article.data.titre}</h2>
+          <p>{article.data.articleContenu}</p>
+        </div>
+      ))}
+    </div>
   );
 }

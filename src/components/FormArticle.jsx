@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
+import { useNavigate } from "react-router-dom";
 
 export default function FormArticle() {
   const [titre, setTitre] = useState();
   const [articleContenu, setArticleContenu] = useState();
   const [submitted, setSubmitted] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,7 +26,7 @@ export default function FormArticle() {
   if (submitted) {
     return (
       <>
-        <p> L'article a été enregistré.</p>
+        {navigate('/articles')}
       </>
     );
   }

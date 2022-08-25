@@ -2,8 +2,8 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <>
-      <header>Astronomie</header>
-    </>
+    <div>
+      <header><h1>Astronomie</h1></header>
+    </div>
   );
 }
