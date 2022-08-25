@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ceppic-react-astronomie/static/css/main.a5964733.css",
-    "main.js": "/ceppic-react-astronomie/static/js/main.161c9481.js",
+    "main.js": "/ceppic-react-astronomie/static/js/main.97bdb62b.js",
     "static/media/orion.webp": "/ceppic-react-astronomie/static/media/orion.92f142136b81cc578fb4.webp",
     "index.html": "/ceppic-react-astronomie/index.html",
     "main.a5964733.css.map": "/ceppic-react-astronomie/static/css/main.a5964733.css.map",
-    "main.161c9481.js.map": "/ceppic-react-astronomie/static/js/main.161c9481.js.map"
+    "main.97bdb62b.js.map": "/ceppic-react-astronomie/static/js/main.97bdb62b.js.map"
   },
   "entrypoints": [
     "static/css/main.a5964733.css",
-    "static/js/main.161c9481.js"
+    "static/js/main.97bdb62b.js"
   ]
 }
